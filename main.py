@@ -3,7 +3,7 @@ import pandas as pd
 
 data = {
     "Fruit": ["I Pathan","Yusuf Pathan","Sam Curran","Sam Billings","Tom Curran","Tommy h"],
-    "Color": ["Red", "Yellow", "Red", "Brown", "Purple", "Purple", "Brown", "Yellow", "Orange", "Orange"]
+    "Color": ["Red", "Yellow", "Red", "Brown", "Purple", "Purple"]
 }
 
 df = pd.DataFrame(data)
