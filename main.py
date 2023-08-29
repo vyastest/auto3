@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 data = {
-    "Fruit": ["Apple", "Banana", "Cherry", "Date", "Fig", "Grape", "Kiwi", "Lemon", "Mango", "Orange"],
+    "Fruit": ["I Pathan","Yusuf Pathan","Sam Curran","Sam Billings","Tom Curran","Tommy h"],
     "Color": ["Red", "Yellow", "Red", "Brown", "Purple", "Purple", "Brown", "Yellow", "Orange", "Orange"]
 }
 
