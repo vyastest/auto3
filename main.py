@@ -8,11 +8,10 @@ data = {
 
 df = pd.DataFrame(data)
 
-input_text = st.text_input("Type to filter options:")
-filtered_options = [option for option in df["Fruit"] if input_text.lower() in option.lower()]
-selected_option = st.selectbox("Select an option:", filtered_options)
+selection = st.selectbox("Select an option:", df["Fruit"], key="dropdown")
 
-filtered_df = df[df["Fruit"] == selected_option]
+if selection:
+    filtered_df = df[df["Fruit"] == selection]
 
-st.write("Filtered Data:")
-st.write(filtered_df)
+    st.write("Filtered Data:")
+    st.write(filtered_df)
