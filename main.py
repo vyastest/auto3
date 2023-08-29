@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 data = {
-    "Fruit": ["I Pathan","Yusuf Pathan","Sam Curran","Sam Billings","Tom Curran","Tommy h"],
-    "Color": ["Red", "Yellow", "Red", "Brown", "Purple", "Purple"]
+    "Fruit": ["Apple", "Banana", "Cherry", "Date", "Fig", "Grape", "Kiwi", "Lemon", "Mango", "Orange"],
+    "Color": ["Red", "Yellow", "Red", "Brown", "Purple", "Purple", "Brown", "Yellow", "Orange", "Orange"]
 }
 
 df = pd.DataFrame(data)
